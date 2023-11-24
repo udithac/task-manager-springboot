@@ -15,12 +15,12 @@ This is the backend for the Task Manager web application, built using Spring Boo
 
 2. **Build and Run:**
 
-- Make sure that you have Java 11 and Maven Installed.
-- Build the application and run.
-```bash
-   mvn spring-boot:run
-
-- Verify the application running status at <http://localhost:8080>
+   - Make sure that you have Java 11 and Maven Installed.
+   - Build the application and run.
+   ```bash
+      mvn spring-boot:run
+   
+   - Verify the application running status at <http://localhost:8080>
 
 3. **API Endpoints**
 
