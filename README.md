@@ -25,6 +25,9 @@ This is the backend for the Task Manager web application, built using Spring Boo
 3. **API Endpoints**
 
 - To get all tasks
+   ```bash
+  GET http://localhost:8080/api/tasks
+
 code:
     GET <http://localhost:8080/api/tasks>
 
