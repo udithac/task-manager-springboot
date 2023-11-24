@@ -28,14 +28,15 @@ This is the backend for the Task Manager web application, built using Spring Boo
    ```bash
   GET http://localhost:8080/api/tasks
 
-code:
-    GET <http://localhost:8080/api/tasks>
+  ```bash
+   GET <http://localhost:8080/api/tasks>
 
 - Create a new task
-code:
+  ```bash
     POST <http://localhost:8080/api/tasks>
 
 - Request Body:
+  ```bash
     {
     "name": "Task Name",
     "dueDate": "2023-12-31",
@@ -43,6 +44,7 @@ code:
     }
 
 - Response:
+    ```bash
     {
     "id": 1,
     "name": "Task Name",
@@ -51,12 +53,12 @@ code:
     }
 
 - Mark Task as completed
-code:
+  ```bash
     PUT <http://localhost:8080/api/tasks/{taskId}/complete>
 
 - Delete task:
-code:
-    DELETE <http://localhost:8080/api/tasks/{taskId}>
+  ```bash
+  DELETE <http://localhost:8080/api/tasks/{taskId}>
 
 4. **Dependencies**
     - Spring Boot 2.5.x
