@@ -74,4 +74,4 @@ This is the backend for the Task Manager web application, built using Spring Boo
 - the Task Manager project is licensed under the MIT License.
 
 
-Thanks, Udithac, 23/11/2023, Berlin, GE.
+Thank you very much for your support!, Uditha C. WICK, 23/11/2023, Berlin, GE.
