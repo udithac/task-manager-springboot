@@ -1,4 +1,4 @@
-# Task Manager Backend
+# Task Manager Application - Backend
 
 ## Overview
 
@@ -7,20 +7,22 @@ This is the backend for the Task Manager web application, built using Spring Boo
 ## How to Run the Application
 
 1. **Clone the Repository:**
-code:
-   git clone <https://github.com/udithac/task-manager-backend.git>
+
+   ```bash
+   git clone https://github.com/udithac/task-manager-backend.git
    cd task-manager-backend
+
 
 2. **Build and Run:**
 
 - Make sure that you have Java 11 and Maven Installed.
 - Build the application and run.
-code:
-    mvn spring-boot:run
+```bash
+   mvn spring-boot:run
 
 - Verify the application running status at <http://localhost:8080>
 
-3. **API Endpoints:**
+3. **API Endpoints**
 
 - To get all tasks
 code:
