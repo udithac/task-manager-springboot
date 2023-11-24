@@ -22,8 +22,8 @@ This is the backend for the Task Manager web application, built using Spring Boo
    
    - Verify the application running status at
    
-   ```bash
-   http://localhost:8080
+     ```bash
+      mvn spring-boot:run  http://localhost:8080
 
 3. **API Endpoints**
 
