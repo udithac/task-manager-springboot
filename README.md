@@ -24,41 +24,41 @@ This is the backend for the Task Manager web application, built using Spring Boo
 
 3. **API Endpoints**
 
-- To get all tasks
-   ```bash
-  GET http://localhost:8080/api/tasks
-
-  ```bash
-   GET <http://localhost:8080/api/tasks>
-
-- Create a new task
-  ```bash
-    POST <http://localhost:8080/api/tasks>
-
-- Request Body:
-  ```bash
-    {
-    "name": "Task Name",
-    "dueDate": "2023-12-31",
-    "completed": false
-    }
-
-- Response:
-    ```bash
-    {
-    "id": 1,
-    "name": "Task Name",
-    "dueDate": "2023-12-31",
-    "completed": false
-    }
-
-- Mark Task as completed
-  ```bash
-    PUT <http://localhost:8080/api/tasks/{taskId}/complete>
-
-- Delete task:
-  ```bash
-  DELETE <http://localhost:8080/api/tasks/{taskId}>
+   - To get all tasks
+      ```bash
+     GET http://localhost:8080/api/tasks
+   
+     ```bash
+      GET <http://localhost:8080/api/tasks>
+   
+   - Create a new task
+     ```bash
+       POST <http://localhost:8080/api/tasks>
+   
+   - Request Body:
+     ```bash
+       {
+       "name": "Task Name",
+       "dueDate": "2023-12-31",
+       "completed": false
+       }
+   
+   - Response:
+       ```bash
+       {
+       "id": 1,
+       "name": "Task Name",
+       "dueDate": "2023-12-31",
+       "completed": false
+       }
+   
+   - Mark Task as completed
+     ```bash
+       PUT <http://localhost:8080/api/tasks/{taskId}/complete>
+   
+   - Delete task:
+     ```bash
+     DELETE <http://localhost:8080/api/tasks/{taskId}>
 
 4. **Dependencies**
     - Spring Boot 2.5.x
